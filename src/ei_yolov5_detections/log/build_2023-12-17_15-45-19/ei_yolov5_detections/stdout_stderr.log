@@ -1,0 +1,62 @@
+-- The CXX compiler identification is GNU 12.2.0
+-- The C compiler identification is GNU 12.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ament_cmake: 1.3.6 (/home/naveen/ros2_humble/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.11.2") found components: Interpreter 
+-- Found camera_info_manager: 3.1.7 (/home/naveen/ros2_humble/install/camera_info_manager/share/camera_info_manager/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/home/naveen/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/home/naveen/ros2_humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/home/naveen/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/home/naveen/ros2_humble/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.5 (/home/naveen/ros2_humble/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.11")  
+-- Found FastRTPS: /home/naveen/ros2_humble/install/fastrtps/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found cv_bridge: 3.2.1 (/home/naveen/ws_moveit2/install/cv_bridge/share/cv_bridge/cmake)
+-- Found depthai_ros_msgs: 2.8.2 (/home/naveen/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake)
+-- Found depthai_bridge: 2.8.2 (/home/naveen/dai_ws/install/depthai_bridge/share/depthai_bridge/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/home/naveen/ros2_humble/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/naveen/ws_moveit2/src/ei_yolov5_detections/build/ei_yolov5_detections
+[ 50%] [32mBuilding CXX object CMakeFiles/ei_yolov5_spatial_node.dir/src/ei_yolov5_spatial_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ei_yolov5_spatial_node[0m
+[100%] Built target ei_yolov5_spatial_node
+-- Install configuration: "Release"
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ei_yolov5_detections/resources
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ei_yolov5_detections/resources/ei-yolov5_openvino_2022.1_5shave.blob
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ei_yolov5_detections/launch
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ei_yolov5_detections/launch/ei_yolov5_publisher.launch.py
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/lib/ei_yolov5_detections/ei_yolov5_spatial_node
+-- Set runtime path of "/home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/lib/ei_yolov5_detections/ei_yolov5_spatial_node" to "/home/naveen/dai_ws/install/depthai_bridge/lib:/home/naveen/ros2_humble/install/stereo_msgs/lib:/usr/local/lib:/home/naveen/ros2_humble/install/camera_info_manager/lib:/home/naveen/ros2_humble/install/camera_calibration_parsers/lib:/home/naveen/ws_moveit2/install/cv_bridge/lib:/home/naveen/dai_ws/install/depthai_ros_msgs/lib:/home/naveen/dai_ws/install/vision_msgs/lib:/home/naveen/ros2_humble/install/image_transport/lib:/home/naveen/ros2_humble/install/sensor_msgs/lib:/home/naveen/ros2_humble/install/tf2_ros/lib:/home/naveen/ros2_humble/install/message_filters/lib:/home/naveen/ros2_humble/install/rclcpp_action/lib:/home/naveen/ros2_humble/install/rclcpp/lib:/home/naveen/ros2_humble/install/libstatistics_collector/lib:/home/naveen/ros2_humble/install/rosgraph_msgs/lib:/home/naveen/ros2_humble/install/statistics_msgs/lib:/home/naveen/ros2_humble/install/rcl_action/lib:/home/naveen/ros2_humble/install/rcl/lib:/home/naveen/ros2_humble/install/rcl_yaml_param_parser/lib:/home/naveen/ros2_humble/install/libyaml_vendor/lib:/home/naveen/ros2_humble/install/tracetools/lib:/home/naveen/ros2_humble/install/rmw_implementation/lib:/home/naveen/ros2_humble/install/ament_index_cpp/lib:/home/naveen/ros2_humble/install/rcl_logging_spdlog/lib:/home/naveen/ros2_humble/install/rcl_logging_interface/lib:/home/naveen/ros2_humble/install/tf2_msgs/lib:/home/naveen/ros2_humble/install/action_msgs/lib:/home/naveen/ros2_humble/install/unique_identifier_msgs/lib:/home/naveen/ros2_humble/install/tf2/lib:/home/naveen/ros2_humble/install/geometry_msgs/lib:/home/naveen/ros2_humble/install/std_msgs/lib:/home/naveen/ros2_humble/install/composition_interfaces/lib:/home/naveen/ros2_humble/install/rcl_interfaces/lib:/home/naveen/ros2_humble/install/builtin_interfaces/lib:/home/naveen/ros2_humble/install/rosidl_typesupport_fastrtps_c/lib:/home/naveen/ros2_humble/install/rosidl_typesupport_fastrtps_cpp/lib:/home/naveen/ros2_humble/install/fastcdr/lib:/home/naveen/ros2_humble/install/rmw/lib:/home/naveen/ros2_humble/install/rosidl_typesupport_introspection_cpp/lib:/home/naveen/ros2_humble/install/rosidl_typesupport_introspection_c/lib:/home/naveen/ros2_humble/install/rosidl_typesupport_cpp/lib:/home/naveen/ros2_humble/install/rosidl_typesupport_c/lib:/home/naveen/ros2_humble/install/rosidl_runtime_c/lib:/home/naveen/ros2_humble/install/rcpputils/lib:/home/naveen/ros2_humble/install/rcutils/lib"
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ament_index/resource_index/package_run_dependencies/ei_yolov5_detections
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ament_index/resource_index/parent_prefix_path/ei_yolov5_detections
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ei_yolov5_detections/environment/ament_prefix_path.sh
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ei_yolov5_detections/environment/ament_prefix_path.dsv
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ei_yolov5_detections/environment/path.sh
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ei_yolov5_detections/environment/path.dsv
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ei_yolov5_detections/local_setup.bash
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ei_yolov5_detections/local_setup.sh
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ei_yolov5_detections/local_setup.zsh
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ei_yolov5_detections/local_setup.dsv
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ei_yolov5_detections/package.dsv
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ament_index/resource_index/packages/ei_yolov5_detections
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ei_yolov5_detections/cmake/ei_yolov5_detectionsConfig.cmake
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ei_yolov5_detections/cmake/ei_yolov5_detectionsConfig-version.cmake
+-- Installing: /home/naveen/ws_moveit2/src/ei_yolov5_detections/install/ei_yolov5_detections/share/ei_yolov5_detections/package.xml

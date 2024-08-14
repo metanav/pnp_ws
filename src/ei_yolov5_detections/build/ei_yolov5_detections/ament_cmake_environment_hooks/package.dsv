@@ -1,0 +1,4 @@
+source;share/ei_yolov5_detections/local_setup.bash
+source;share/ei_yolov5_detections/local_setup.dsv
+source;share/ei_yolov5_detections/local_setup.sh
+source;share/ei_yolov5_detections/local_setup.zsh
